@@ -172,7 +172,7 @@ function App() {
               {/* Título de la invitación con animación */}
               <div className="section text-center animate-fade-in">
                 <h1 className="text-3xl md:text-4xl font-extrabold text-[#795548] mb-2 font-display">
-                  {userName ? `${userName} y pareja` : 'Amada pareja'}
+                  {userName ? `${userName}` : 'Amada pareja'}
                 </h1>
                 <p className="text-lg md:text-xl italic text-gray-600 mb-6 animate-delay-300">
                   Les invitamos cordialmente a un tiempo de edificación y crecimiento, un evento diseñado para fortalecer la unidad y el amor en pareja, bajo la bendición de Dios.
