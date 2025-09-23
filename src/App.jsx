@@ -18,7 +18,7 @@ function App() {
   const [formCelular, setFormCelular] = useState('');
 
   // Acceder a la variable de entorno para la URL de la API
-  const API_URL = process.env.REACT_APP_API_URL;
+  const API_URL = import.meta.env.VITE_API_URL;
 
   useEffect(() => {
     // Obtener el nombre del parámetro de la URL al cargar la página
@@ -172,7 +172,7 @@ function App() {
               {/* Título de la invitación con animación */}
               <div className="section text-center animate-fade-in">
                 <h1 className="text-3xl md:text-4xl font-extrabold text-[#795548] mb-2 font-display">
-                  {userName ? `${userName}` : 'Amada pareja'}
+                  {userName ? `${userName} y pareja` : 'Amada pareja'}
                 </h1>
                 <p className="text-lg md:text-xl italic text-gray-600 mb-6 animate-delay-300">
                   Les invitamos cordialmente a un tiempo de edificación y crecimiento, un evento diseñado para fortalecer la unidad y el amor en pareja, bajo la bendición de Dios.
