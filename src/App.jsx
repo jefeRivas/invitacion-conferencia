@@ -227,7 +227,7 @@ function App() {
           <div className="absolute inset-0 bg-black opacity-40 z-0"></div>
           <div className="relative z-10 p-4 rounded-xl bg-white bg-opacity-10 backdrop-filter backdrop-blur-sm text-center border border-white border-opacity-30">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold font-serif text-white text-shadow mb-8 animate-fade-in-up">
-              Invitación para <br />{userName ? `${userName} y pareja` : 'ti y tu pareja'}
+              Invitación para <br />{userName ? `${userName}` : 'ti y tu pareja'}
             </h1>
             <div 
               onClick={handleOpenInvitation}
@@ -267,7 +267,7 @@ function App() {
                   {/* Título de la invitación con animación */}
                   <div className="section text-center animate-fade-in">
                     <h1 className="text-3xl md:text-4xl font-extrabold text-[#795548] mb-2 font-display">
-                      {userName ? `${userName} y pareja` : 'Amada pareja'}
+                      {userName ? `${userName}` : 'Amada pareja'}
                     </h1>
                     <p className="text-lg md:text-xl italic text-gray-600 mb-6 animate-delay-300">
                       Les invitamos cordialmente a un tiempo de edificación y crecimiento, un evento diseñado para fortalecer la unidad y el amor en pareja, bajo la bendición de Dios.
@@ -488,7 +488,7 @@ function App() {
               <div className="bg-white p-8 rounded-2xl shadow-xl w-full max-w-md animate-fade-in-up">
                 <h3 className="text-2xl font-bold mb-4 text-[#795548]">Que tendrás si confirmas:</h3>
                 <p className="text-gray-700 mb-4">
-                  La bendición de compartir cin tu pareja y encontrar ese mensaje que Dios rtiene para ambos es algo que no tiene valor, encuentra nuestro programa aquí:
+                  La bendición de compartir con tu pareja y encontrar ese mensaje que Dios tiene para ambos es algo que no tiene valor, encuentra nuestro programa aquí:
                 </p>
                 <ul className="list-none pl-0 mb-6 text-gray-600 space-y-2">
                   <li className="flex items-center">
