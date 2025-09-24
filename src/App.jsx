@@ -157,7 +157,7 @@ function App() {
         className="font-serif text-gray-800 antialiased relative z-0 min-h-screen w-full"
         style={{ 
           // Se ha actualizado la URL de la imagen para que sea visible
-          backgroundImage: `url('public/Fondo.jpg')`,
+          backgroundImage: `url('./Fondo.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed'
