@@ -45,7 +45,7 @@ function App() {
       setUserName(nombreParam);
     }
 
-    const eventDate = new Date("October 10, 2025 17:00:00").getTime();
+    const eventDate = new Date("March 6, 2026 17:00:00").getTime();
     
     const countdownInterval = setInterval(() => {
       const now = new Date().getTime();
@@ -327,7 +327,7 @@ function App() {
                     ref={detailsRef}
                     className={`section text-center mb-8 transition-opacity duration-1000 ${sectionsVisible.details ? 'show-section' : 'hide-section'}`}
                   >
-                    <p className="text-md text-gray-600 mb-1">Viernes, 10 de octubre de 2025</p>
+                    <p className="text-md text-gray-600 mb-1">Viernes, 6 de marzo de 2025</p>
                     <p className="font-bold text-gray-800 text-lg md:text-xl">5:00 PM</p>
                   </div>
 
